@@ -1,4 +1,4 @@
-name: ci-golang-workflow
+name: ci-cf30-test
 on: 
   pull_request:
     branches:
