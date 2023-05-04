@@ -1,11 +1,8 @@
 name: ci-cf30-test
 on:
-  push:
-    branches:
-      - develop
   pull_request:
     branches:
-      - main
+      - develop
 jobs:
   check-application:
     runs-on: ubuntu-latest
