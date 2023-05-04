@@ -4,7 +4,7 @@ import "testing"
 
 func TestSoma(t *testing.T) {
 
-	total := soma(30, 30)
+	total := Soma(30, 30)
 
 	if total != 900 {
 		t.Errorf("Resultado da some é inválido: Resultado %d. Esperado: %d", total, 900)
