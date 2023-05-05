@@ -39,6 +39,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: false
-          tags: alissonrangel/fc30-CI0-test:latest
+          tags: alissonrangel/fc30-ci-test:latest
 
     
